@@ -26,7 +26,7 @@ const userSystem = {
   },
 
   logout() { 
-    localStorage.removeItem("token")
+    localStorage.removeItem("token");
   },
 
   login(email, password) {
